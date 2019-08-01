@@ -1,0 +1,18 @@
+2019-07-17 13:49:36,255 - 07-17 错误调试和测试.py[line:48] - ERROR: division by zero
+Traceback (most recent call last):
+  File "07-17 错误调试和测试.py", line 46, in main
+    bar('0')
+  File "07-17 错误调试和测试.py", line 41, in bar
+    return foo(s) * 2
+  File "07-17 错误调试和测试.py", line 37, in foo
+    return 10 / int(s)
+ZeroDivisionError: division by zero
+2019-07-17 13:49:55,435 - 07-17 错误调试和测试.py[line:48] - ERROR: division by zero
+Traceback (most recent call last):
+  File "07-17 错误调试和测试.py", line 46, in main
+    bar('0')
+  File "07-17 错误调试和测试.py", line 41, in bar
+    return foo(s) * 2
+  File "07-17 错误调试和测试.py", line 37, in foo
+    return 10 / int(s)
+ZeroDivisionError: division by zero
